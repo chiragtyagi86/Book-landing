@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+
+/* navbar css */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #171921;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.active {
+    color: orangered;
+}
+
+nav img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    margin: 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* hero section css */
+.hero {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #e1d9d6;
+    position: relative;
+    justify-content: center;
+    height: 80vh;
+}
+.hero-right{
+    position: relative;
+    top: 0;
+
+}
+.hero-right img{
+    margin-top: 140px;
+    height: 650px;
+    margin-right: 100px;
+}
+.hero-left {
+    display: flex;
+    align-items: center;
+    margin-right: 250px;
+    margin-left: 100px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-left span {
+    text-transform: uppercase;
+    color: #946659;
+    margin-right: 430px;
+}
+
+.hero-left h1 {
+    font-size: 70px;
+    text-wrap: wrap;
+    line-height: 1.4em;
+    margin: 10px;
+}
+
+.hero-left p {
+    color: #30333A;
+}
+
+button {
+    border: none;
+    text-transform: uppercase;
+    padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#buy {
+    background: #946659;
+    color: white;
+}
+
+#read {
+    background: white;
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white !important;
+    background: orangered !important;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 500px;
+    margin: 20px;
+}
+
+/* featured tab */
+
+.feature {
+    margin: 50px;
+}
+
+.feature h2 {
+    margin: 20px;
+    text-align: center;
+    font-family: serif;
+}
+
+.feature .img-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* author area */
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.author-right {
+    margin: 50px;
+}
+
+.author-right h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-family: serif;
+}
+
+.author-right p {
+    font-size: 14px;
+}
+
+.author-right h3 {
+    margin: 20px;
+    font-family: serif;
+}
+
+.author-right g {
+    margin: 30px;
+}
+
+.social-link {
+    margin-left: 100px;
+    margin: 20px;
+}
+
+/* complete series */
+.comp {
+    display: flex;
+    align-items: center;
+    background: #e1d9d6;
+    justify-content: center;
+}
+
+.comp-left {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.comp-left span {
+    color: #946659;
+    margin-left: 50px;
+}
+
+.comp-left h1 {
+    font-size: 2.5rem;
+    font-family: serif;
+    margin: 30px;
+}
+
+.comp-left p {
+    margin: 40px;
+}
+
+.comp-right {
+    margin: 50px;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img-grid img {
+    /* margin: 50px; */
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 350px;
+}
+
+/* readers css */
+.readers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 221, 208);
+    width: 100%;
+
+}
+
+.readers-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.readers-left .ob {
+    margin-right: 200px;
+}
+
+.readers-left h1 {
+    font-size: 2.5rem;
+    font-family: serif;
+}
+
+.readers-left p {
+    font-size: 14px;
+}
+
+.readers-right {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* margin: 150px; */
+    margin-right: 60px;
+    width: 60%;
+}
+
+.card {
+    width: 350px;
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card img {
+    margin: 20px;
+}
+
+/* upcoming css */
+.upcoming {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+.upcoming-right {
+    margin-left: 50px;
+}
+
+.upcoming-right h1 {
+    font-size: 2.5rem;
+    font-family: serif;
+    margin-bottom: 20px;
+}
+
+.upcoming-right p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 2.01em;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 221, 208);
+    padding: 100px;
+}
+
+.news-left {
+    margin-right: 300px;
+}
+
+.news-left h1 {
+    font-size: 3.5rem;
+    font-family: serif;
+}
+
+.news-left input {
+    padding-right: 70px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+/* footer css */
+
+
+.upper {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    justify-content: space-around;
+    background: #171921;
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.lower {
+    background: #30333A;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.lower a {
+    text-decoration: none;
+    color: white;
+}
+
+.branded {
+    color: white;
+}
