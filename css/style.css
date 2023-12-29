@@ -67,16 +67,19 @@ nav img {
     justify-content: center;
     height: 80vh;
 }
-.hero-right{
+
+.hero-right {
     position: relative;
     top: 0;
 
 }
-.hero-right img{
+
+.hero-right img {
     margin-top: 140px;
     height: 650px;
     margin-right: 100px;
 }
+
 .hero-left {
     display: flex;
     align-items: center;
@@ -389,4 +392,31 @@ button:hover {
 
 .branded {
     color: white;
+}
+
+
+
+                    /* LOGIN PAGE CSS */
+form{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    width: 35%;
+    height:30rem;
+    background-color: rgba(232, 120, 139, 0.882);
+    border-radius:10px; 
+    box-shadow: 2px 4px 6px black;
+}
+input{
+    margin: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius:10px;
+    padding: 20px;
+    box-shadow: 2px 3px 6px black;
 }
